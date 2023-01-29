@@ -27,6 +27,7 @@ body{
   
   /* Background:url Repeat Position Size*/
   background: var(--bg-Light) no-repeat top center/cover;
+height: 100vh;
 
 }
 
@@ -139,4 +140,13 @@ footer{
   text-align: center;
   font-weight: 400;
   font-size: 14px;
+}
+
+@media (min-width: 700px){
+  :root{
+    --bg-light: url(./asset/Background-Desktop.jpg);
+  }
+  .light{
+    --bg-light: url(./asset/background-light-desktop.jpg);
+  }
 }
